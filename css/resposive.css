@@ -1,0 +1,37 @@
+@media(max-width: 780px){
+
+    body .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    body .container .car_brand{
+        width: 16.5rem;
+        height: 21.5rem;
+    }
+
+    body .container .titulo{
+        font-size: 2rem;
+    }
+
+    body .container .texto{
+        font-size: 13px;
+        padding: 8px 20px;
+        line-height: 22px;
+    }
+
+    body .container .sedans{
+        border-radius: 7px 7px 0 0;
+    }
+
+    body .container .luxury{
+        border-radius: 0 0 7px 7px;
+    }
+
+}
+
+@media(min-width: 781px){
+    body{
+        padding-top: 5rem;
+    }
+}

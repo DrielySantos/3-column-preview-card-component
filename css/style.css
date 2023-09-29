@@ -1,0 +1,114 @@
+body{
+    font-size: 1rem;
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    gap: 15px;
+}
+
+.container{
+    max-width: 1440px;
+    height: 100%;
+    display: flex;
+}
+
+.container .car_brand{
+    width: 13.9rem;
+    height: 22.6rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .image_car{
+    width: 45px;
+    margin: 35px 0 0 -109px;
+}
+
+.container .titulo{
+    font-size: 29px;
+    text-transform: uppercase;
+    margin: 25px 0 0 -90px;
+    font-family: 'Big Shoulders Display', cursive;
+    color: var(--headings-buttons);
+}
+
+.container .texto{
+    padding: 20px 30px;
+    font-size: 11px;
+    color: var(--paragraphs);
+    text-align: left;
+    line-height: 18px;
+}
+
+.container .sedans{
+    background: var(--color-sedans);
+    border-radius: 5px 0 0 5px;
+}
+
+.container .suvs{
+    background: var(--color-suvs);
+}
+
+.container .luxury{
+    background: var(--color-luxury);
+    border-radius: 0 5px 5px 0;
+}
+
+.container .btn{
+    width: 110px;
+    height: 35px;
+    margin: 40px 0 0 -50px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #fff;
+    font-weight: 600;
+    transition: .2s ease-in-out;
+}
+
+.container .btn_sedans{
+    color: var(--color-sedans);
+}
+
+.container .btn_sedans:hover{
+    background-color: var(--color-sedans);
+    color: var(--headings-buttons);
+}
+
+.container .btn_suvs{
+    color: var(--color-suvs);
+}
+
+.container .btn_suvs:hover{
+    background-color: var(--color-suvs);
+    color: var(--headings-buttons);
+}
+
+.container .btn_luxury{
+    color: var(--color-luxury);
+}
+
+.container .btn_luxury:hover{
+    background-color: var(--color-luxury);
+    color: var(--headings-buttons);
+}
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

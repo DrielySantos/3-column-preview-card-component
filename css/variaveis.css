@@ -1,0 +1,7 @@
+:root{
+    --color-sedans: hsl(31, 77%, 52%);
+    --color-suvs: hsl(184, 100%, 22%);
+    --color-luxury: hsl(179, 100%, 13%);
+    --paragraphs: hsla(0, 0%, 100%, 0.75);
+    --headings-buttons: hsl(0, 0%, 95%);
+}
